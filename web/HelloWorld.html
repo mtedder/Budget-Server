@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="description" content="HTML Example">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<title>Hello World</title>
+
+<!-- Example of an external CSS stylesheet -->
+<link rel=stylesheet href=myCSS.css type=text/css>
+
+<script type="text/javascript">
+	//Javascript code goes here
+</script>
+
+<!-- Example of Embedded CSS -->
+<style>
+/* Set Form input text field background color to grey using hex color code */
+input {
+	background-color: #A4A4A4;
+}
+</style>
+
+</head>
+
+<body>
+	Text without a semantic tag
+	<br> Newline of text
+	<h1>Lorem ipsum</h1>
+	<p style="color: red;">
+		<!-- Example of Inline CSS -->
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu
+		nisi turpis. Aliquam purus lectus, pharetra lacinia laoreet non,
+		rutrum in felis. Mauris sed consectetur sapien. Cras blandit placerat
+		pharetra. Nullam vel magna est. Curabitur condimentum interdum
+		facilisis. Ut vehicula tellus et gravida dignissim. Donec tristique
+		viverra porta. Vivamus ut urna ac tellus sollicitudin dictum quis vel
+		velit. Nulla gravida massa congue scelerisque euismod. Maecenas
+		maximus fringilla nulla eu rhoncus. Integer urna leo, tincidunt eu
+		tempor eu, convallis sit amet diam. Fusce scelerisque leo elit, sed
+		tempor leo hendrerit id. Quisque semper euismod lorem. Sed at nisl ac
+		quam porta eleifend a nec mauris. Integer sit amet nunc vitae sem
+		faucibus rutrum at in purus. Quisque blandit eget leo ut ornare. Fusce
+		orci leo, varius non condimentum a, accumsan ac orci.
+	</p>
+	<!-- Show Grand Circus Logo -->
+	<img src="images/logo.png" alt="Grand Circus logo">
+	<!-- Link to Grand Circus Web site -->
+	<br>
+
+	<!-- Show Grand Circus Logo As a hyperlink-->
+	<a href=http://www.grandcircus.co/ >Grand Circus <img
+		src="images/logo.png" alt="Grand Circus logo">
+	</a>
+
+	<!-- Example of displaying data in a table -->
+	<table>
+		<caption>Staff Directory</caption>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Address</th>
+		</tr>
+		<tr>
+			<td>Maurice Tedder</td>
+			<td>maurice@grandcircus.co</td>
+			<td>111 Main St.</td>
+		</tr>
+	</table>
+<br>
+<!-- Example of Using a form to submit data to a server running on your local machine -->
+	<form action="http://localhost:4321" method="get">
+		<label>First name: </label> <input type="text" name="firstname"><br>
+
+		<input type="radio" name="gender" value="male" checked> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other<br>
+
+		<input type="submit" value=Submit>
+	</form>
+</body>
+</html>
